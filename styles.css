@@ -17,5 +17,25 @@ input[type=number] {
   color: white;
   font-size: 8em;
   text-align: center;
-  border: 1px solid green;
+  border: 0;
+}
+
+#farenheight{
+  border-top: 4px solid green;
+  border-bottom: 4px solid green;
+}
+
+::-webkit-input-placeholder {
+  color: #ff4040;
+}
+::-moz-placeholder {
+  color: #ff4040;
+}
+
+::-ms-input-placeholder{
+  color: #ff4040;
+}
+
+:-ms-input-placeholder{
+  color: #ff4040;
 }
